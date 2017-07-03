@@ -50,22 +50,26 @@ PHP serves as the rest server for PAM.  PHP does the heavy lifting, logic, and m
   PAM uses a fast JSON based REST API powered by PHP.  PAM is flexible so you don't even have to use PHP to provide your data.  Each page and content type in PAM has the ability to also get JSON data from external API's.
  
   ## PLUGINS
-  Plugins in PAM are handled using bower, much like themes.  A plugin.json file tells PAM which bower components and loose js/css files to use.
+  Plugins in PAM are handled using bower, much like themes.  A plugin.json file tells PAM which bower components and front end files.
   
   PAM's plugin page will even tell you when a plugin.json file is broken or missing!
   
-  We plan to add a plugin directory making it very easy to install, update, and create new plugins for PAM!  
+  PAM intelligently handles install and uninstall scripts, and recycles your plugin data before deleting it permanently.
+  
+  You can easily clone plugins without any copying any code since PAM stores all data about plugins in MONGODB.
+  
+  
   
   ![picture alt](_docs/img/plugins-page.png "PAM Plugins Page")
   
   
    
   ## COMPONANTS
-  PAM features componants which can be placed anywhere on the site.  
+  PAM features React powered componants which can be placed anywhere on the site.  
   
-  Powerful componants give PAM the ability to upgrade easily and integrate with different API's and services.
+  Powerful componants give PAM the ability to easily swap out components. 
   
-  Not only will there be a directory for PAM Plugins and themes, but there will be an online directory of all sorts of componants anyone can use on their site.
+  Not only will there be a repository for PAM Plugins and themes, but there will be an online directory of all sorts of componants anyone can use on their site.
   
   ![picture alt](_docs/img/plugins-page.png "PAM Plugins Page")
   
@@ -77,7 +81,11 @@ PHP serves as the rest server for PAM.  PHP does the heavy lifting, logic, and m
 
 ## VOICE CONTROL
 
-Voice Control with annyang!
+PAM has a plugin for Voice Control with annyang!
+
+You can easily add new voice commands to take control of your site.  Voice control plus the speed that angular provides make PAM extremely fast to navigate.
+
+
 
 ## BITCOIN PAYMENTS
 
