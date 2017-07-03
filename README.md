@@ -58,6 +58,17 @@ PHP serves as the rest server for PAM.  PHP does the heavy lifting, logic, and m
   
   ![picture alt](_docs/img/plugins-page.png "PAM Plugins Page")
   
+  
+   
+  ## COMPONANTS
+  PAM features componants which can be placed anywhere on the site.  
+  
+  Powerful componants give PAM the ability to upgrade easily and integrate with different API's and services.
+  
+  Not only will there be a directory for PAM Plugins and themes, but there will be an online directory of all sorts of componants anyone can use on their site.
+  
+  ![picture alt](_docs/img/plugins-page.png "PAM Plugins Page")
+  
  
  ## THEMES
  
