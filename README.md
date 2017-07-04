@@ -63,6 +63,8 @@ PHP serves as the rest server for PAM.  PHP does the heavy lifting, logic, and m
   ![picture alt](_docs/img/plugins-page.png "PAM Plugins Page")
   
   
+
+  [  Read more about PAM PLUGINS](pam/_docs/PLUGINS.MD)
    
   ## COMPONANTS
   PAM features React powered componants which can be placed anywhere on the site.  
